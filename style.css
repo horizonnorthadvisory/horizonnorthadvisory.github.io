@@ -25,8 +25,18 @@ header {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.9;
 }
 
 nav a {
@@ -67,18 +77,21 @@ main {
     max-width: 850px;
 }
 
+
+
 .hero-image-placeholder {
-    width: 420px;
-    height: 300px;
-    border-radius: 12px;
-    background-color: #d9e2ec;
-    border: 2px dashed #8aa4c2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #17345f;
-    font-weight: 600;
+    width: 500px;
+    height: 340px;
+    border-radius: 14px;
+
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border: none;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
+
 
 
 
@@ -461,6 +474,12 @@ main {
     background-color: #f4f6f8;
 }
 
+.education-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 /* Mobility Image Section */
@@ -517,6 +536,14 @@ main {
     background-color: #f4f6f8;
 }
 
+.family-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 .family-feature-text h2 {
     font-size: 32px;
     line-height: 1.25;
@@ -553,6 +580,15 @@ main {
     font-weight: 600;
     background-color: #f4f6f8;
 }
+
+.investment-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 
 /* Contact Section */
 
@@ -691,4 +727,19 @@ main {
 .opportunity-link {
     text-decoration: none;
     color: inherit;
+}
+
+
+.hospitality-image {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mobility-image {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
